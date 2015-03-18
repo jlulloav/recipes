@@ -1,0 +1,78 @@
+@charset "utf-8";
+.form_style {
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	background-color: #C36;
+	text-align: right;
+	height: 217px;
+	width: 406px;
+	margin-left: 70px;
+	padding-left: 70px;
+}.login_h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #FFF;
+	padding-right: 70px;
+	text-align: left;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+
+.login_h2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	text-align: left;
+	
+}
+.login_h3 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	text-align: rigth;
+}
+.login_labels {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	text-align: left;
+}
+.login_box {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	border-radius: 60px;
+	border: 2px solid #C00;
+	height: 22px;
+	width: 60%;
+	margin-left: 8px;
+	border-width: 3px;
+	
+}
+#pass{
+	box-shadow: 16px 0 0 #C00;
+}	
+.login_Buton {
+	color: #C36;
+	border: 2px solid #C00;
+	border-radius: 60px;
+	background-color: #CC9;
+	height: 29px;
+	margin-left: 4px;
+	font-size: 10px;
+	font-weight: bold;
+	box-shadow: -10px 0 0 #C00;
+	-moz-box-shadow: -8px 10px 2px #C00;
+}
+
+.div_Box{
+	height: 20px;
+	width: 100px;
+}
+.text_border {
+	border: medium solid #303;
+	border-bottom: groove;
+	border-bottom-style: inset;
+}
