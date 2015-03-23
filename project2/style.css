@@ -1,0 +1,108 @@
+@charset "utf-8";
+#form_div {
+	height: 488px;
+	width: 559px;
+	color: #000;
+	background: #FFF;
+	padding: 3px;
+	border-color: #000;
+	border-width: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.firm_login {
+	vertical-align: middle;
+	height: 482px;
+	width: 553px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #E0F0E8;
+	border-right-color: #E0F0E8;
+	border-bottom-color: #E0F0E8;
+	border-left-color: #E0F0E8;
+}
+#inside_div {
+	vertical-align: middle;
+	text-align: left;
+	height: auto;
+	padding-left: 6px;
+	background-color: #F5FAF9;
+	padding-right: 6px;
+	border: 3px solid #E0F0E8;
+}
+h1{
+	padding-top: 6px;
+	font-size: 18px;
+	color: #55917A;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: lighter;
+	
+}
+.aster {
+	color: #F00;
+}
+
+#label_div {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #E0F0E8;
+	text-align: left;
+	padding: 2px;
+	width: 100%;
+	border: 1px dashed #A7BEB7;
+}
+.form_div {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #559191;
+	background-color: #E0F0E8;
+	text-align: right;
+	padding: 4px;
+	height: inherit;
+	font-size: 11px;
+	width: inherit;
+	vertical-align: middle;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+.text {
+	height: 16px;
+	width: auto;
+	border: thin solid #A7BEB7;
+}
+#phone_div {
+	font-size: 10px;
+	color: #55917A;
+	
+}
+.Phone_text{
+	padding: 2px;
+	line-height: normal;
+	vertical-align: middle;
+	position: absolute;
+	left: 206px;
+	top: 175px;
+	}
+#check_country {
+	position: inherit;
+	vertical-align: top;
+	height: 18px;
+}
+#postal_Address {
+	width: 65%;
+}
+#check_terms {
+	font-size: 11px;
+	font-style: bold;
+	color: #55917A;
+	border-color: #CCC;
+}
+#form_div #inside_div table tr td .phone_div .phone_div {
+	color: #559191;
+	font-style: normal;
+}
+#Reset {
+	padding-left: 0px;
+	left: 6px;
+}

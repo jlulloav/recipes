@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: #999;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="form_div" id="form_div">
+  <div id="inside_div">
+    <h1>Register - Create Account</h1>
+    <div align="left" id="label_div"><label>Files market with</label><label class="aster" > * </label><label>are compulsory fields</label></div>
+    <p></p>
+    
+    <table width="100%" border="0">
+    
+      <tr>
+        <td><div class="form_div">
+          <label class="aster">*</label>
+        Your Name</div></td>
+        <td width="68%"><form name="form1" method="post" action="">
+          <label for="name_text"></label>
+          <input name="name_text" type="text" class="text" id="name_text" size="40%">
+        </form></td>
+      </tr>
+      <tr>
+        <td><div class="form_div">
+          <label class="aster">*</label>
+        E-Mail ID</div></td>
+        <td><input name="email_text" type="text" class="text" id="email_text" size="50%"></td>
+      </tr>
+      <tr>
+        <td><div class="form_div">Alternate E-Mail ID</div></td>
+        <td><input name="alternate_mail" type="text" class="text" id="alternate_mail" size="50%"></td>
+      </tr>
+      <tr>
+        <td height="58"><div class="form_div">
+          
+        Your Phone</div></td>
+        <td><table width="100%" border="0">
+  <tr>
+    <td><div class="phone_div" id="phone_div">Code Country - City Code - Phone Numbrer</div></td>
+  </tr>
+  <tr>
+    <td height="22">
+     
+        <input name="country" type="text" class="text" id="country" size="8%"> 
+        <label>-</label> 
+        <input name="country2" type="text" class="text" id="city" size="6%">
+        <label>-</label> 
+        <input name="city" type="text" class="text" id="city2" size="20%">
+      
+     </td>
+  </tr>
+</table></td>
+      </tr>
+      <tr>
+        <td valign="middle"><div class="form_div">Mobile Phone</div></td>
+        <td><input name="mobile_phone_text" type="text" class="text" id="mobile_phone_text" size="40%"></td>
+      </tr>
+      <tr>
+        <td height="69" valign="middle"><div class="form_div">
+          <label class="aster">*</label>
+          Your Postal Address
+        </div></td>
+        <td><textarea name="postal_Address" rows="4" id="postal_Address"></textarea></td>
+      </tr>
+      <tr>
+        <td height="22"><div class="form_div">
+          <label class="aster">*</label>
+        Country</div></td>
+        <td valign="middle"><select name="check_country" class="text" id="check_country">
+          <option>----------------Select One------------------</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><div class="form_div">
+          <label class="aster">*</label>
+        Password</div></td>
+        <td><label for="pass"></label>
+        <input name="pass" type="password" class="text" id="pass"></td>
+      </tr>
+      <tr>
+        <td><div class="form_div">
+          <label class="aster">*</label>
+          Re - Enter Password
+        </div></td>
+        <td><input name="pass2" type="password" class="text" id="pass2"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><label>
+          <input type="checkbox" name="check_terms" id="check_terms">
+          <span id="check_terms">I accept the <a href="Project2.html">Terms of Use</a></span></label></td>
+      </tr>
+    </table>
+    <form name="form2" method="post" action="">
+      <table width="100%" border="0">
+        <tr>
+          <td width="32%">&nbsp;</td>
+          <td width="68%"><input type="submit" name="button" id="button" value="Continue >>">
+          <input type="submit" name="Reset" id="Reset" value="Reset"></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+</div>
+</body>
+</html>
